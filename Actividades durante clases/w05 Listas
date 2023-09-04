@@ -1,0 +1,28 @@
+## Ejercicio 1.
+E1Lista = [1,2,3,4,5]
+
+## Ejercicio 2.
+E2Lista = ["Manzana", "Platano", "Cereza"]
+print(E2Lista[0],E2Lista[-1])
+
+## Ejercicio 3.
+E2Lista.append("Uva")
+print(len(E2Lista))
+
+## Ejercicio 4.
+E3SLista = E2Lista[0:2]
+E3LNum = [1,2,3,4,5,6,7,8,9,10]
+E3SNum = []
+for E3i in E3LNum:
+    if E3i % 2 == 1:
+        E3SNum.append(E3i)
+print(E3SNum)
+
+### Ejercicios Desafiantes
+
+## 1. Inversion de lista
+A = [1,2,3,4,5,6,7,8,9,10]
+for i1 in range(1,len(A)+1):
+    A.append(A[len(A)-i1])
+    A.pop(len(A)-i1-1)
+print(A)
