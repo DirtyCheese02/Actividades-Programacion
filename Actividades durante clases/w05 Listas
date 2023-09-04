@@ -41,5 +41,5 @@ M = [[5,1,2],
      [9,0,5]]
 Suma = 0
 for i3 in range(0,len(M[0])):
-    Suma = Suma + M[i3][i3]
+    Suma += M[i3][i3]
 print(Suma)
