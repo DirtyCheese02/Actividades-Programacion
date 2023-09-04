@@ -26,3 +26,20 @@ for i1 in range(1,len(A)+1):
     A.append(A[len(A)-i1])
     A.pop(len(A)-i1-1)
 print(A)
+
+## 2. Eliminacion de duplicados
+B = [0,1,1,2,1,3,1,4,2,2,4,3,5,6,7,6,8,8,9,1,0,4,2,3,1,3,4,7,5,4,2]
+C = []
+for i2 in B:
+    if i2 not in C:
+        C.append(i2)
+print(C)
+
+## 3. Listas Anidadas y matrices
+M = [[5,1,2],
+     [1,5,6],
+     [9,0,5]]
+Suma = 0
+for i3 in range(0,len(M[0])):
+    Suma = Suma + M[i3][i3]
+print(Suma)
