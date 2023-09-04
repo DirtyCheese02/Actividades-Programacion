@@ -5,7 +5,7 @@ E1Lista = [1,2,3,4,5]
 E2Lista = ["Manzana", "Platano", "Cereza"]
 print(E2Lista[0],E2Lista[-1])
 
-## Ejercicio 3.
+## Ejercicio 3
 E2Lista.append("Uva")
 print(len(E2Lista))
 
@@ -35,7 +35,7 @@ for i2 in B:
         C.append(i2)
 print(C)
 
-## 3. Listas Anidadas y matrices
+## 3. Matrices y suma de diagonal principal
 M = [[5,1,2],
      [1,5,6],
      [9,0,5]]
